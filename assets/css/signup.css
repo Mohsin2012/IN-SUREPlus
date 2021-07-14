@@ -1,0 +1,53 @@
+/* Password Validation */
+
+  #message {
+    display:none;
+    background: #ffffff;
+    color: #000;
+    position: relative;
+    padding: 5px;
+    margin-top: 10px;
+    /* margin-left: 27%; */
+  }
+
+  #nameErr {
+    display:none;
+    background: #ffffff;
+    color: #000;
+    position: relative;
+    padding: 5px;
+    margin-top: 10px;
+    /* margin-left: %; */
+  }
+  
+  #message p {
+    font-size: 15px;
+  }
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: #50d8af;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -5px;
+    content: "✓";
+  }
+  
+  /* Add a red text color and an "x" when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -5px;
+    content: "✕";
+  }
+
+  #nameErr p {
+    font-size: 15px;
+  }
+/* End of styling for signup form */
+

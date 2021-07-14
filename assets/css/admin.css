@@ -1,0 +1,144 @@
+body
+{
+font-size:smaller;
+}
+.prof{
+background-color: #f3f6f8;
+margin-top:20px;
+}
+
+a{
+color: #50d8af;
+transition: 0.5s;
+}
+
+a:hover, a:active, a:focus {
+color: #51d8af;
+outline: none;
+text-decoration: none;
+}
+
+.profile-user-box {
+position: relative;
+border-radius: 5px
+}
+.bg-custom {
+background-color: #e9ecef!important;
+}
+
+.card-box {
+padding: 20px;
+border-radius: 60px!important;
+margin-bottom: 30px;
+background-color:#e9ecef!important;
+}
+
+.text-custom {
+color: #02c0ce!important;
+}
+
+.badge-custom {
+background: #02c0ce;
+color: #fff;
+}
+.badge {
+font-family: Rubik,sans-serif;
+-webkit-box-shadow: 0 0 24px 0 rgba(0,0,0,.06), 0 1px 0 0 rgba(0,0,0,.02);
+box-shadow: 0 0 24px 0 rgba(0,0,0,.06), 0 1px 0 0 rgba(0,0,0,.02);
+padding: .35em .5em;
+font-weight: 500;
+}
+.text-muted {
+color: #98a6ad!important;
+}
+
+.font-13 {
+font-size: 13px!important;
+}
+
+.tsml {
+font-size: 14px!important;
+}
+
+#tcl{
+color: #5f0969!important;
+font-family: 'Playfair Display', serif;
+font-size: xx-large;
+}
+h1{
+font-size: x-large;
+margin: 0px 0 0px 0;
+}
+#inpt{
+font-size:xx-small;
+}
+
+#brand{
+font-family: "Montserrat", sans-serif;
+font-weight: 700;
+margin: 0 0 20px 0;
+padding: 0;
+}
+
+button > a
+{
+    color: #000000!important;
+}
+button > a:hover,button > a:focus
+{
+    color: #50d8af!important;
+}
+.btn-outline-dark:not(:disabled):not(.disabled).active, .btn-outline-dark:not(:disabled):not(.disabled):active, .show>.btn-outline-dark.dropdown-toggle {
+    color: #000000!important;
+    background-color: #ffffff;
+    border-color: #343a40;
+}
+
+.dropdown-item.active{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #000000;
+}
+.dropdown-item{
+    color: #000000;
+    text-decoration: none;
+    background-color: #ffffff;
+}
+
+#asc,#desc{
+    background-color: #343a40;
+    color: #fff;
+}
+
+ /* Desktop and landscape tablets */
+@media (min-width: 855px) 
+{
+
+.desktop-visible 
+{
+    display: block;
+}
+
+.accordion
+{
+    display: none;
+}
+
+}
+ 
+/* Tablets and Mobiles */
+@media (max-width: 855px) 
+{
+
+.desktop-visible 
+{
+    display: none;
+}
+
+
+.accordion
+{
+    display: block;
+}
+
+}
