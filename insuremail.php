@@ -14,9 +14,9 @@
     $mail->Port = 587; // TLS only
     $mail->SMTPSecure = 'tls'; // ssl is deprecated
     $mail->SMTPAuth = true;
-    $mail->Username = 'insure003@gmail.com'; // email
-    $mail->Password = 'dbadmin@003'; // password
-    $mail->setFrom('insure003@gmail.com', 'IN-SURE+'); // From email and name
+    $mail->Username = 'xxxxxxxx'; // email
+    $mail->Password = 'xxxxx'; // password
+    $mail->setFrom('xxxxxxx', 'IN-SURE+'); // From email and name
     $mail->addAddress($to_email); // to email and name
     $mail->Subject = $subject;
     $mail->msgHTML($body); //$mail->msgHTML(file_get_contents('contents.html'), __DIR__); //Read an HTML message body from an external file, convert referenced images to embedded,
